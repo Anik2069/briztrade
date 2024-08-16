@@ -29,7 +29,8 @@ const Navbar = () => {
         <div>
             <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
-                <Image className={style.fistNavimg} src={addNav.src} height={""} width={""} alt='' />
+                    {/* className={style.fistNavimg} */}
+                <Image  src={addNav.src} height={""} width={""} alt='' />
             </div>
 
 
